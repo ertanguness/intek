@@ -1,8 +1,11 @@
-<?php
+<!-- <?php
     $link = $_SERVER['PHP_SELF'];
     $link_array = explode('/',$link);
     $page = end($link_array);
-?>
+?> -->
+
+<?php require_once "config/functions.php" ;?>
+
 <!-- Sidebar -->
 <div class="sidebar" id="sidebar">
     <div class="sidebar-inner slimscroll">
@@ -15,7 +18,7 @@
                     <li class="submenu">
                         <a href="#"><i class="la la-dashboard"></i> <span> Dashboard</span> <span class="menu-arrow"></span></a>
                         <ul style="display: none;">
-                            <li><a class="<?php echo ($page == 'admin-dashboard.php')?'active':'';?>" href="admin-dashboard.php">Admin Dashboard</a></li>
+                            <li><a class="<?php hasActive('admin-dashboard');?>" href="admin-dashboard.php">Admin Dashboard</a></li>
                             <li><a class="<?php echo ($page == 'employee-dashboard.php')?'active':'';?>" href="employee-dashboard.php">Employee Dashboard</a></li>
                             <li><a class="<?php echo ($page == 'deals-dashboard.php')?'active':'';?>" href="deals-dashboard.php">Deals Dashboard</a></li>
 							<li><a class="<?php echo ($page == 'leads-dashboard.php')?'active':'';?>" href="leads-dashboard.php">Leads Dashboard</a></li>

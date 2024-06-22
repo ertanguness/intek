@@ -56,6 +56,25 @@
   font-weight: 800;
   src: local("Circular Std Black Italic"), url("../fonts/CircularStd-BlackItalic.woff") format("woff");
 }
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Nunito Regular"), url("../fonts/Nunito-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: bold;
+  font-weight: 600;
+  src: local("Nunito SemiBold"), url("../fonts/Nunito-SemiBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: bold;
+  font-weight: 600;
+  src: local("Nunito ExtraBold"), url("../fonts/Nunito-ExtraBold.ttf") format("ttf");
+}
 h1,
 .h1 {
   font-size: 2rem;
@@ -180,7 +199,7 @@ h6,
 }
 
 body {
-  font-family: "CircularStd", sans-serif;
+  font-family: "Nunito SemiBold", sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: #4D5154;
