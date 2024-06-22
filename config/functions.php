@@ -8,12 +8,9 @@
         global $page;
        
         if ($param === pathinfo($page)['filename']) {
-            return $param;
+            return "active";
         } else {
             return '';
         }
     }
 
-   
-
-?>

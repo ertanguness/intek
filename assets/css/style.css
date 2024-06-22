@@ -11305,6 +11305,7 @@ input[type=file].form-control {
 [data-layout-mode=orange] body .header .header-left .logo {
   display: block;
   line-height: 60px;
+  width: 100px;
 }
 [data-layout-mode=orange] body .header .user-menu.nav > li > a {
   color: #FFF;

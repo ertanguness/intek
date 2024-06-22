@@ -4,14 +4,14 @@
             <!-- Logo -->
             <div class="header-left">
                 <a href="admin-dashboard.php" class="logo">
-                    <img src="assets/img/logo.svg" alt="Logo">
+                    <img src="assets/img/logo.png" alt="Logo">
                 </a>
-                <a href="admin-dashboard.php" class="logo collapse-logo">
-                    <img src="assets/img/collapse-logo.svg" alt="Logo">
+                <!-- <a href="admin-dashboard.php" class="logo collapse-logo">
+                <img src="assets/img/favicon.png" width="40" height="40" alt="Logo">
                 </a>
                 <a href="admin-dashboard.php" class="logo2">
-                    <img src="assets/img/logo2.png" width="40" height="40" alt="Logo">
-                </a>
+                    <img src="assets/img/favicon.png" width="40" height="40" alt="Logo">
+                </a> -->
             </div>
             <!-- /Logo -->
             
@@ -25,7 +25,7 @@
             
             <!-- Header Title -->
             <div class="page-title-box">
-                <h3>Dreams Technologies</h3>
+                <h3>İntek Teknoloji</h3>
             </div>
             <!-- /Header Title -->
             
@@ -41,34 +41,14 @@
                             <i class="fa-solid fa-magnifying-glass"></i>
                        </a>
                         <form action="search.php">
-                            <input class="form-control" type="text" placeholder="Search here">
+                            <input class="form-control" type="text" placeholder="Ara..">
                             <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                         </form>
                     </div>
                 </li>
                 <!-- /Search -->
             
-                <!-- Flag -->
-                <li class="nav-item dropdown has-arrow flag-nav">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
-                        <img src="assets/img/flags/us.png" alt="Flag" height="20"> <span>English</span>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a href="javascript:void(0);" class="dropdown-item">
-                            <img src="assets/img/flags/us.png" alt="Flag" height="16"> English
-                        </a>
-                        <a href="javascript:void(0);" class="dropdown-item">
-                            <img src="assets/img/flags/fr.png" alt="Flag" height="16"> French
-                        </a>
-                        <a href="javascript:void(0);" class="dropdown-item">
-                            <img src="assets/img/flags/es.png" alt="Flag" height="16"> Spanish
-                        </a>
-                        <a href="javascript:void(0);" class="dropdown-item">
-                            <img src="assets/img/flags/de.png" alt="Flag" height="16"> German
-                        </a>
-                    </div>
-                </li>
-                <!-- /Flag -->
+               
             
                 <!-- Notifications -->
                 <li class="nav-item dropdown">
